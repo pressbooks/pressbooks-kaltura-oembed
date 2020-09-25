@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Pressbooks Kaltura oEmbed
-Plugin URI:
+Plugin URI: https://pressbooks.org
 Description: Enables Kaltura MediaSpace oEmbeds for videos hosted on selected domains.
 Version: 1.0
 Author: Steel Wagstaff
