@@ -1,0 +1,13 @@
+{
+  "name": "pressbooks/pressbooks-kaltura-oembed",
+  "description": "A plugin for Pressbooks which enables Kaltura MediaSpace oEmbeds for videos hosted on selected domains.",
+  "type": "wordpress-plugin",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Steel Wagstaff",
+      "homepage": "https://github.com/SteelWagstaff"
+    }
+  ]
+}
