@@ -16,4 +16,5 @@ function kaltura_add_oembed_handlers(){
     wp_oembed_add_provider( 'https://media.kpu.ca/*', 'https://media.kpu.ca/oembed/' );
     wp_oembed_add_provider( 'https://iu.mediaspace.kaltura.com/*', 'https://iu.mediaspace.kaltura.com/oembed', false );
     wp_oembed_add_provider( 'https://learning.kaltura.com/*', 'https://learning.kaltura.com/oembed', false );
+    wp_oembed_add_provider( 'https://video.uark.edu/*', 'https://video.uark.edu/oembed', false );
 }
