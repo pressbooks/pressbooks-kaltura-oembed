@@ -3,7 +3,7 @@
 Plugin Name: Pressbooks Kaltura oEmbed
 Plugin URI: https://pressbooks.org
 Description: Enables Kaltura MediaSpace oEmbeds for videos hosted on selected domains.
-Version: 1.0
+Version: 1.0.1
 Author: Steel Wagstaff
 License: GPL3
 */
@@ -17,4 +17,5 @@ function kaltura_add_oembed_handlers(){
     wp_oembed_add_provider( 'https://iu.mediaspace.kaltura.com/*', 'https://iu.mediaspace.kaltura.com/oembed', false );
     wp_oembed_add_provider( 'https://learning.kaltura.com/*', 'https://learning.kaltura.com/oembed', false );
     wp_oembed_add_provider( 'https://video.uark.edu/*', 'https://video.uark.edu/oembed', false );
+    wp_oembed_add_provider( 'https://millersville.mediaspace.kaltura.com/*', 'https://millersville.mediaspace.kaltura.com/oembed', false );
 }
